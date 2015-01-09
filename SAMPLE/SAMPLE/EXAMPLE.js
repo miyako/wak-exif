@@ -1,0 +1,1 @@
+﻿var path = getFolder().path + 'Resources/' + 'Thailand.jpeg';var modulesFolder = FileSystemSync('Modules');var exif = require(modulesFolder.path + "exif");exif.getXML(path);
